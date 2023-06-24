@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.proencaLogo {
+  width:300px;
+  height:auto;
+}
+
+.carousel-inner {
+  max-height: 80vh !important;
+}
+.carousel-inner img{
+  vertical-align: top;
+}
+@media (max-width: 900px) {
+  .carousel-inner {
+    width:auto;
+    height:auto;
+  }
+}
